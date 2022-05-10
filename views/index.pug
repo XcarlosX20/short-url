@@ -1,0 +1,9 @@
+extends layout
+block content
+    .container
+        form(action="/" class="form" method="POST" id="addUrl") 
+            legend Add a link to shorten
+            .container.field-form
+                input(type="url" name="urlOriginal" placeholder="https://www.example.com/" id="urlOriginal" required)
+            .container.field-form
+                input(type="submit" class="btn" value="SHORT")

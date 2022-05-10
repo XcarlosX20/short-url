@@ -1,0 +1,27 @@
+{
+  "name": "acortadorurl",
+  "version": "1.0.0",
+  "description": "Acortador URL's con Express y Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js ",
+    "start": "node ./index.js"
+  },
+  "author": "Carlos Sierra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.0.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "pug": "^2.0.4",
+    "session": "^0.1.0",
+    "shortid": "^2.2.14",
+    "slug": "^1.1.0"
+  }
+}
